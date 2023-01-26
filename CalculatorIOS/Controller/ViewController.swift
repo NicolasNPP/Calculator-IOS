@@ -9,6 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: - Variables
+    
+    private var tot: Double = 0 //Total
+    private var temp: Double = 0 //Valor en pantalla
+    private var operating = false //Indica selección de operador
+    private var decimal = false //Indica si el valor es decimal
+    private var operation: OperationType = .none //Operación actual
+    
+    //MARK: - Constantes
+    
+    private let kDecimalSeparator = Locale.current.decimalSeparator!
+    private let kmaxLength = 9
+    private let kMaxValue: Double = 999999999
+    private let kMinValue: Double = 0.000000001
+    
+    private enum OperationType {
+        case none, addiction, substraction, multiplication, division, percent
+    }
+    
+    
     //MARK: - Oulets
     
     //Result
