@@ -39,5 +39,39 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    //MARK: - Actions
+    
+    @IBAction func resultOperation(_ sender: Any) {
+    }
+    
+    @IBAction func additionOperation(_ sender: Any) {
+    }
+    
+    @IBAction func substractionOperation(_ sender: Any) {
+    }
+    
+    @IBAction func multiplicationOperation(_ sender: Any) {
+    }
+    
+    @IBAction func divisionOperation(_ sender: Any) {
+    }
+    
+    @IBAction func percentOperation(_ sender: Any) {
+    }
+    
+    @IBAction func plusMinusOperation(_ sender: Any) {
+    }
+ 
+    @IBAction func AcOperation(_ sender: Any) {
+    }
+    
+    @IBAction func numberDecimalOperation(_ sender: Any) {
+    }
+    
+    @IBAction func numberAction(_ sender: UIButton) {
+    }
+    
+    
 }
 
