@@ -362,7 +362,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTL-Sk-beI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTL-Sk-beI">
                                 <rect key="frame" x="20" y="84" width="374" height="119.66666666666669"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="100"/>
@@ -382,7 +382,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="number0" destination="ECP-CT-kMl" id="ME5-Te-YV6"/>
                         <outlet property="number1" destination="pVY-hh-xOh" id="UnL-Ux-BBF"/>
+                        <outlet property="number2" destination="dOE-Aj-iPi" id="8w2-GW-h29"/>
                         <outlet property="number3" destination="5z3-4Q-FfA" id="cG7-al-SHk"/>
                         <outlet property="number4" destination="teQ-OL-sGg" id="ala-vZ-MNl"/>
                         <outlet property="number5" destination="FJa-AO-bqn" id="yoz-MR-DMv"/>
@@ -391,7 +393,6 @@
                         <outlet property="number8" destination="LBR-NM-ghu" id="hmi-gN-gQj"/>
                         <outlet property="number9" destination="5W7-h2-Quk" id="kAu-QU-ea7"/>
                         <outlet property="numberDecimall" destination="wt7-P8-nmn" id="Q64-yV-f4e"/>
-                        <outlet property="numer2" destination="dOE-Aj-iPi" id="4Hx-Fi-c0X"/>
                         <outlet property="operateAddition" destination="ctC-Ma-ZpL" id="EjK-E9-tSv"/>
                         <outlet property="operateDivison" destination="kos-Z2-LzV" id="jco-m6-fX4"/>
                         <outlet property="operateMultiplication" destination="kE3-tF-QxI" id="BYk-hy-C9I"/>
