@@ -267,4 +267,3 @@ class ViewController: UIViewController {
         print(tot)
     }
 }
-
