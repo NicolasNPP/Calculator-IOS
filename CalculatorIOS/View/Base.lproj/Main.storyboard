@@ -363,19 +363,29 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="OTL-Sk-beI">
-                                <rect key="frame" x="20" y="84" width="374" height="119.66666666666669"/>
+                                <rect key="frame" x="20" y="70" width="374" height="103.66666666666669"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
+                                </variation>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uFa-Fo-G4C" secondAttribute="bottom" constant="20" id="16s-K1-7UN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uFa-Fo-G4C" secondAttribute="bottom" constant="20" id="16s-K1-7UN">
+                                <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                            </constraint>
                             <constraint firstItem="uFa-Fo-G4C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5w4-1a-mDx"/>
-                            <constraint firstItem="uFa-Fo-G4C" firstAttribute="top" secondItem="OTL-Sk-beI" secondAttribute="bottom" constant="40" id="OSI-xa-Zcc"/>
+                            <constraint firstItem="uFa-Fo-G4C" firstAttribute="top" secondItem="OTL-Sk-beI" secondAttribute="bottom" constant="70" id="85p-Er-ETp">
+                                <variation key="heightClass=regular-widthClass=regular" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="OTL-Sk-beI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="N9H-iN-1SB">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uFa-Fo-G4C" secondAttribute="trailing" constant="20" id="Op6-Pi-tMc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OTL-Sk-beI" secondAttribute="trailing" constant="20" id="e1a-38-X8G"/>
                             <constraint firstItem="OTL-Sk-beI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oA5-pG-jYn"/>
@@ -406,7 +416,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="57.971014492753625" y="3.2608695652173916"/>
+            <point key="canvasLocation" x="56.249999999999993" y="2.1961932650073206"/>
         </scene>
     </scenes>
     <resources>
